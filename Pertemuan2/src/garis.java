@@ -1,7 +1,7 @@
 /*  Nama File   : garis.Java 
  *  Deskripsi   : berisi atribut dan method dalam class garis
  *  Pembuat     : Dian Aulya Dewiyani
- *  Tanggal     : 2/26/2026
+ *  Tanggal     : 3/5/2026
  */
 
 public class garis {
