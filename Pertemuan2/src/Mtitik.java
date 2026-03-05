@@ -1,3 +1,9 @@
+/*  Nama File   : MTitik.Java 
+ *  Deskripsi   : berisi main dalam class Titik
+ *  Pembuat     : Dian Aulya Dewiyani
+ *  Tanggal     : 2/26/2026
+ */
+
 public class Mtitik {
     public static void main(String[] args){
         Titik T1 = new Titik(3, 4);
