@@ -5,6 +5,7 @@
  */
 
 public class garis {
+    
     /****Atribut****/
     Titik A, B, awal, akhir;
     static int CounterGaris = 0;
