@@ -38,7 +38,7 @@ public class Titik {
 
     void geser(double x, double y){
         absis = absis + x;
-        ordinat = ordinat + x;
+        ordinat = ordinat + y;
     }
 
 }
