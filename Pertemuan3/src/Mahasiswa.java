@@ -89,7 +89,7 @@ public class Mahasiswa {
     }
 
     // Mendapatkan jumlah SKS mata kuliah yang diambil mahasiswa
-    public Integer getJumlahSKS(ArrayList<MataKuliah> listMatkul){
+    public Integer getJumlahSKS(){
         int i, Total;
 
         Total = 0;
@@ -102,20 +102,20 @@ public class Mahasiswa {
 
     // Menampilkan nim, nama, dan prodi mahasiswa.
     public void printMhs(){
-        System.out.println("Nim: " + NIM);
+        System.out.println("\nNIM: " + NIM);
         System.out.println("Nama: " + Nama);
         System.out.println("Prodi: " + Prodi);
     }
     // Menampilkan nim, nama, prodi, daftar mata kuliah yang diambil, data dosen wali, serta data kendaraan yang dimiliki mahasiswa.
     public void printDetailMhs(){
-        System.out.println("Nim: " + NIM);
+        System.out.println("\nNIM: " + NIM);
         System.out.println("Nama: " + Nama);
         System.out.println("Prodi: " + Prodi);
         int i;
         for(i=0; i<listMatkul.size(); i++){
-            System.out.println(listMatkul.get(i).getNama());
+            System.out.println("- " + listMatkul.get(i).getNama());
         }
-        System.out.println("Dosen Wali: " + DosenWali);
-        System.out.println("Kendaraan: " + Kendaraan);
+        System.out.println("Dosen Wali: " + getDosenWali().getNama() + ", " + getDosenWali().getNIP());
+        System.out.println("Kendaraan: " + getKendaraan().getnoPlat() + ", " + getKendaraan().getJenis());
     }
 }
