@@ -1,3 +1,9 @@
+/*  Nama File   : MMahasiswa.Java 
+ *  Deskripsi   : berisi main dalam class Mahasiswa
+ *  Pembuat     : Dian Aulya Dewiyani
+ *  Tanggal     : 3/11/2026
+ */
+
 import java.util.ArrayList;
 
 public class MMahasiswa {
