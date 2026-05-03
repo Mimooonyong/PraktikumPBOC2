@@ -10,4 +10,8 @@ public class OperatorGenerik {
         a.setIsi(b.getIsi());
         b.setIsi(temp);
     }
+
+    public static <T extends Kucing> double Bobot2(Datum<T> a, Datum<T> b) {
+        return a.getIsi().getBobot() + b.getIsi().getBobot();
+    }
 }
