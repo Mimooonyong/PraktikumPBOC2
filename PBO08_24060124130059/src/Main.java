@@ -51,11 +51,33 @@ public class Main {
         System.out.println("Isi s1 : " + s1.getIsi());
         System.out.println("Isi s2 : " + s2.getIsi()); 
 
-        // 3c Mengeluarkan Dua BErat Kucing
+        // 3c Mengeluarkan Dua Berat Kucing
         Datum<Kucing> D = new Datum<>(new Anggora("David", 3.5));
         Datum<Kucing> L = new Datum<>(new KembangTelon("Lucy", 4.0));
 
         double total = OperatorGenerik.Bobot2(D, L);
         System.out.println("\nTotal Bobot Kucing = " + total);
+
+        // 4a Realisasi dan Aplikasi kelas Data
+        Data<Anabul> dataAnabul = new Data<>();
+
+        // 4b  Realisasi Prosedur setIsi dan Aplikasi Untuk Keluarga Objek Anabul
+        dataAnabul.setIsi(1, new Kucing("Yuno", 6.5));
+        dataAnabul.setIsi(2, new Anjing("Gasai"));
+        dataAnabul.setIsi(3, new Kucing("Yuki", 5.5));
+
+        // 4c Realisasi Fungsi getIsi Disertai Aplikasi Untuk Keluarga Objek Anabul
+        System.out.println("Isi posisi 1:");
+        dataAnabul.getIsi(1).suara();
+
+        System.out.println("Isi posisi 2:");
+        dataAnabul.getIsi(2).suara();
+
+        System.out.println("Isi posisi 3:");
+        dataAnabul.getIsi(3).suara();
+
+        // 4d Realisasi Fungsi getSize Disertai Aplikasi Untuk Keluarga Objek Anabul
+        System.out.println("Jumlah ukuran dari dataAnabul = " + dataAnabul.getSize());
+
     }
 }
