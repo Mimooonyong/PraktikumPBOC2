@@ -11,7 +11,7 @@ public class Main {
         Anabul K9 = new Anjing("Delta");
         Anabul Talon = new Burung("Talonflame");
         Anabul Litten = new Kucing("Litten", 3.5);
-
+        Anabul Sprigatito = new Kucing("Sprigatito", 3.5);
         // METHOD
         // b.i
         System.out.println("Peliharaan Rota = " + Rota.getNbelm());
@@ -20,6 +20,7 @@ public class Main {
         Rota.enqueueAnabul(K9);
         Rota.enqueueAnabul(Talon);
         Rota.enqueueAnabul(Litten);
+        Rota.enqueueAnabul(Sprigatito);
 
         // b.iii
         System.out.println("\nApakah K9 merupakan peliharaan Rota? " + Rota.isMember(K9));
@@ -38,6 +39,10 @@ public class Main {
         System.out.println("\nJumlah kucing yang dimiliki = " + Rota.countKucing());
 
         // e
+        System.out.println("\nJumlah bobot kucing yang dimiliki = " + Rota.bobotKucing());
+
+        // f
+        Rota.showJenisAnabul();
     }
     
 }

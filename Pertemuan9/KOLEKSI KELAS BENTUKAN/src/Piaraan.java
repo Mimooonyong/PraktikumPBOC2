@@ -72,15 +72,24 @@ public class Piaraan {
     }
 
     // e
-    public double bobotKucing(){
+    public double bobotKucing() {
         double bobot = 0;
         int i;
 
-        for (i = 0; i < nbelm; i++){
-            if (Lanabul.get(i) instanceof Kucing){
-                bobot += ((Kucing) Lanabul).getBobot();
+        for (i = 0; i < nbelm; i++) {
+            if (Lanabul.get(i) instanceof Kucing) {
+                bobot += ((Kucing) Lanabul.get(i)).getBobot();
             }
         }
 
+        return bobot;
+    }
+
+    // f
+    public void showJenisAnabul() {
+        int i;
+        for (i = 0; i < nbelm; i++) {
+            System.out.println((i + 1) + ". " + Lanabul.get(i).getNama() + " - " + Lanabul.get(i).getClass().getName());
+        }
     }
 }
