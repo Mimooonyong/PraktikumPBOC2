@@ -1,3 +1,9 @@
+/*  Nama File   : Anjing.Java 
+ *  Deskripsi   : berisi method dalam class Anjing
+ *  Pembuat     : Dian Aulya Dewiyani
+ *  Tanggal     : 23/4/2026
+ */
+
 public class Anjing extends Anabul{
     // Konstruktor
     Anjing(String nama) {

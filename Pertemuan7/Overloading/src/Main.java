@@ -1,3 +1,9 @@
+/*  Nama File   : Main.Java 
+ *  Deskripsi   : berisi main dalam class Mahasiswa
+ *  Pembuat     : Dian Aulya Dewiyani
+ *  Tanggal     : 23/4/2026
+ */
+
 public class Main {
     public static void main(String[] args) {
 

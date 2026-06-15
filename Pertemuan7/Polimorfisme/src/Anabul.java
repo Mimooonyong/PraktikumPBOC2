@@ -1,3 +1,9 @@
+/*  Nama File   : Anabul.Java 
+ *  Deskripsi   : berisi method dalam class Anabul
+ *  Pembuat     : Dian Aulya Dewiyani
+ *  Tanggal     : 23/4/2026
+ */
+
 public class Anabul {
     //ATRIBUT
     private String nama;
